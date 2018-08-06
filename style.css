@@ -1,0 +1,418 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+   body {
+    font-family: Sanomat Grab Web Regular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+
+   }
+   nav {
+    background-color: white; 
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    opacity: 0.85;
+   }
+  .space {
+    height: 65px;
+  }
+  .leftnav { 
+    float: left;
+    margin-left: 3%;
+  }
+  .rightnav {
+    float: right;
+    margin-right: 3%;
+  }
+  .grab-logo {
+    width: 91px;
+    height: 35px;
+    vertical-align: middle;
+  }
+  .grab-pay {
+    width: 100px;
+    height: 35px;
+    vertical-align: middle;
+  }
+  .grab-pay:hover {
+    width: 100px;
+    height: 35px;
+    content: url(Images/grabpay_topnav_active.png)
+  }
+  nav li {
+    display: inline-block;
+    margin: 15px;
+    font-size: 20px;
+  }
+  nav a {
+    color: black;
+    text-decoration: none;    
+  }
+  nav a:hover {
+    cursor: pointer;
+    color: #1ed760;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-left: 8px;
+}
+
+  i {
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    margin: 5px;
+  }
+
+  .rightnav button {
+    border: 2px solid #1ed760;
+    border-radius: 0.5em;
+    background-color: white;
+    color: #1ed760;
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+#banner {
+    height: 451.5px;
+    background-image:url(Images/hero1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 65px;
+}
+.title {
+    color: white;
+    font-weight: 600;
+    font-size: 35px;
+    vertical-align: center;
+    text-align: left;
+    padding-left: 150px;
+    line-height: 1;
+}
+#banner p {
+    color: white;
+    vertical-align: center;
+    text-align: left;
+    padding-left: 150px;
+    padding-top: 30px;
+}
+.downloadnow {
+    padding-left: 150px;
+}
+.downloadnow button {
+    border: none;
+    border-radius: 0.5em;
+    background-color: #00B140;
+    color: white;
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 100px;
+    font-weight: bold;
+}
+.downloadnow a:hover {
+    background-color:#00B140;
+    opacity: 0.9;
+}
+#clicktolearn {
+    height: 392px;
+    background-color: #009d3b; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title3 {
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    line-height: 1;
+}
+#clicktolearn button {
+    color: #00b040;
+    background-color: white;
+    border: none;
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-top: 70px;
+    font-weight: bold;
+}
+#freedomtochoose {
+    height: 550px;
+    background-image: url(Images/taxi.jpg);
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+}
+.title4 {
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+.title4 h1 {
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.taxi {
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    opacity: 0.6;
+    text-align: center;
+    height: 180px;
+    width: 350px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+#downloadgrab {
+    height: 458px;
+    background-image: url(Images/downloadgrab.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.title5 {
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+.code {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.QRcode {
+    margin-right: 50px;
+}
+.QRcode h4 {
+    color: white;
+    padding: 5px;
+}
+.QRcode img {
+    width: 120px;
+    height: 120px;
+    border: thin solid white;
+    border-radius: 0.5em;
+}
+.store {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.store img {
+    width: 148px;
+    height: 51px;
+    margin: 5px;
+    border: thin solid white;
+    border-radius: 0.5em;
+}
+
+#latestnews {
+    height: 1000px;
+    background-color: white;
+}
+
+.news {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title6 h1 {
+    margin-top: 20px;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 2.571em;
+    color: #00BA51;
+    text-align: center;
+}
+.title6 p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.143em;
+    color: #464B57;
+}
+.announce {
+    background-image: url(Images/battay.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 720px;
+    margin: 10px;
+}  
+.newspic {
+    height: 350px;
+    width: 350px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+}
+.date {
+    display: block;
+    font-size: 1em;
+    font-weight: 200;
+}
+.NUS {
+    background-image: url(Images/nus.jpg);
+}
+.battay2 {
+    background-image: url(Images/battay2.jpg);
+}
+.battay1 {
+    background-image: url(Images/battay.jpg);
+}
+.ngay {
+    background-image: url(Images/90ngay.jpg);
+}
+.textnews {
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+.viewmore button {
+    width: 200px;
+    height: 30px;
+    color: white;
+    background-color: #2196F3;
+    border-radius: 0.5em;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px 40px;
+}
+.viewmore a:hover{
+    background-color: #337ab7;
+    opacity: 0.9;
+}
+.viewmore {
+    margin-top: 30px;
+    text-align: center;
+}
+#stayintouch {
+    height: 600px;
+    background-color: #00B140;
+}
+.aboutgrab {
+    display: flex;
+    flex-direction: space-between;
+    color: white;
+    padding-top: 50px;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 1.113em;
+}
+.info {
+    width: 450px;
+    padding: 30px;
+}
+.other {
+    width: 300px;
+    padding: 30px;
+}
+.other h4 {
+    color:rgba(255,255,255,0.8);
+    padding-bottom: 5px;
+}
+.aboutgrab a {
+    text-decoration: none;
+    color: white;
+}
+.aboutgrab a:hover {
+    text-decoration: underline;
+}
+.aboutgrab p {
+    padding: 2px;
+}
+.dangky {
+    width: 150px;
+    padding-top: 100px;
+}
+hr {
+    margin-top: 0;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+.fa {
+    padding: 20px;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 10px;
+    border-radius: 50%;
+    background: white;
+    color: green;
+    text-align: center;
+    display: inline-block;
+  }
+.fa:hover {
+    opacity: 0.5;
+}
+.title7 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color:rgba(255,255,255,0.8);
+    padding-bottom: 5px;
+}
+.social {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    height: 72px;
+    background-color: #363A45;
+    display: flex;
+    justify-content: space-around;
+}
+.term li {
+    color: white;
+    margin-top: 20px;
+    margin: 20px;
+    float: left;
+}
+.term li:first-child {
+    list-style-type: none;
+}
+.term a {
+    text-decoration: none;
+    color: white;
+}
+.term a:hover {
+    text-decoration: underline;
+}
+.copyright {
+    color: rgba(255,255,255,0.6);
+    margin-top: 20px;
+}
+.appstore img {
+    width: 100px;
+    height: 30px;
+}
+.appstore {
+    margin-top: 20px;
+}
